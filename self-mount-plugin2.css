@@ -1,0 +1,53 @@
+.self-mount-plugin {
+    font-family: 'BebasNeueRegular';
+    src: url('https://cdn.uncc.edu/its/cws/d07/themes/uncc_epsilon/fonts/Bebas/BebasNeueRegular.otf');
+}
+
+.self-mount-plugin div.card {
+    background-color: #fcf8e3;
+    border-color: #f1daab;
+    color: #c09853;
+    font-weight: 400;
+}
+
+.self-mount-plugin div.header-wrapper h2.h3 {
+    font-family: 'BebasNeueBold';
+    src: url('https://cdn.uncc.edu/its/cws/d07/themes/uncc_epsilon/fonts/Bebas/BebasNeueBold.otf');
+    font-weight: inherit;
+    background-color: unset;
+    color: inherit;
+}
+
+.self-mount-plugin .label {
+    font-weight: inherit;
+    color: inherit;
+}
+
+.self-mount-plugin div.card div.progress {
+    background-color: unset;
+}
+
+.self-mount-plugin .progress__max {
+    border-radius: 5px;
+}
+
+.self-mount-plugin .progress__bar {
+    background-color: #005035;
+    border-radius: 5px;
+}
+
+.self-mount-plugin .progress__label {
+    font-weight: inherit;
+}
+
+.self-mount-plugin .button--theme-cta {
+    font-weight: inherit;
+    background-image: linear-gradient(#3cad79, #00703C 50%, #2f9064);
+    background-repeat: no-repeat;
+    border: 1px solid #00703C;
+}
+
+.self-mount-plugin .button--theme-cta:focus,.self-mount-plugin .button--theme-cta:hover {
+    background-image: linear-gradient(#5f8ab9, #3e648d 50%, #385a7f);
+    border-color: #2e4b69;
+}
